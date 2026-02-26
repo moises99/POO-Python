@@ -13,7 +13,7 @@ class Produto():
         painel = Panel(Text(f'{self.nome} \n{'-'*tam:^6} \n{moeda(self.preco):.^{tam}}',justify="center",style="blue"),title="Produto".upper(),style="purple",expand=False,)
         print(painel)
 
-#Formtação para moeda
+#Formatação para moeda
 def moeda(moeda):
     return f"R${moeda:,.2f}".replace(",", "v").replace(".", ",").replace("v", ".")
 
