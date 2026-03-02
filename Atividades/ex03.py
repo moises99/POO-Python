@@ -24,3 +24,6 @@ c1.analisar()
 
 c2 = Churrasco('Churras 02 🍖 ', 10)
 c2.analisar()
+
+c3 = Churrasco('Churras 03 🍖 ', 20)
+c3.analisar()
