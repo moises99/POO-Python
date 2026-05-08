@@ -21,8 +21,6 @@ class Quadrado(Poligono):
         return self.lado * self.lado
         
         
-   
-   
 class Circulo(Poligono):
     def __init__(self,raio):
         self.raio = raio
@@ -34,7 +32,7 @@ class Circulo(Poligono):
         return 3.14 * (self.raio**2)
         
 
-q = Circulo(20)
+q = Quadrado(20)
 calc_perimetro = q.perimetro()
 calc_area = q.area()
 print(f" O perimetro é {calc_perimetro:.1f}")
