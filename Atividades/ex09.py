@@ -1,11 +1,11 @@
 from abc import ABC,abstractmethod
 class BebidaQuente(ABC):
     def preparar(self):
-        print(f'---Iniciando Preparo do {type(bebida).__name__}---')
+        print(f'--- Iniciando Preparo do {type(bebida).__name__}---')
         self.ferver_agua()
         self.misturar()
         self.servir()
-        print(f'---Seu {type(bebida).__name__} está pronto---')
+        print(f'--- Seu {type(bebida).__name__} está pronto---')
     def ferver_agua(self):
         print('1 - Ferver agua a 100 graus.')
         
