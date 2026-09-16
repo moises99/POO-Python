@@ -16,7 +16,7 @@ class Caminhao(Transporte):
 
     def calc_frete(self):
         if self.distancia < 50:
-            return f"[red]indisponivel. Distancia minima ed 50 KM.[/]"
+            return f"[red]indisponivel. Distancia minima de 50 KM.[/]"
         else:
             return f"[green]R${self.fator * self.distancia:.2f}[/]".replace('.',',')
 
