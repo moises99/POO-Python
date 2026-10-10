@@ -21,7 +21,7 @@ class Diario:
             print('Senha invalida')
             senha = input('Para ler o diario, informe a senha...')
         [print(f'{v} - Lendo: {segredos}...') for v,segredos in enumerate(self.__segredos)]
-    
+
 senha = input('Defina uma senha para seu Diario...')
 meu_diario = Diario(senha)
 meu_diario.escrever = ('Aprendendo POO')
